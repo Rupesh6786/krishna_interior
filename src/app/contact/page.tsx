@@ -39,7 +39,7 @@ export default function ContactPage() {
                             <div>
                                 <h3 className="font-headline text-xl">Phone</h3>
                                 <p className="text-muted-foreground">Speak to our design consultant:</p>
-                                <a href="tel:+918292615316" className="text-primary hover:underline">+91 8292615316</a>
+                                <a href="tel:+918268615316" className="text-primary hover:underline">+91 8268615316</a>
                             </div>
                         </div>
                          <div className="flex items-start gap-4">

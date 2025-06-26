@@ -30,7 +30,7 @@ export function Footer() {
             <h3 className="font-headline text-lg mb-4">Contact Us</h3>
             <address className="not-italic text-sm text-muted-foreground space-y-2">
               <p>Email: <a href="mailto:tkrishna610@gmail.com" className="hover:text-primary transition-colors">tkrishna610@gmail.com</a></p>
-              <p>Phone: <a href="tel:+918292615316" className="hover:text-primary transition-colors">+91 8292615316</a></p>
+              <p>Phone: <a href="tel:+918268615316" className="hover:text-primary transition-colors">+91 8268615316</a></p>
             </address>
           </div>
           <div className="col-span-1">
