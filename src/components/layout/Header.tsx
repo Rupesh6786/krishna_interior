@@ -68,7 +68,7 @@ export function Header() {
                 <span className="sr-only">Open menu</span>
               </Button>
             </SheetTrigger>
-            <SheetContent side="right" className="w-[300px] sm:w-[400px] bg-background">
+            <SheetContent side="left" showCloseButton={false} className="w-[300px] sm:w-[400px] bg-background">
               <SheetHeader>
                 <SheetTitle className="sr-only">Menu</SheetTitle>
                 <SheetDescription className="sr-only">Mobile navigation menu</SheetDescription>
@@ -81,6 +81,12 @@ export function Header() {
                           Krishna Interiors
                         </span>
                     </Link>
+                    <SheetClose asChild>
+                      <Button variant="ghost" size="icon">
+                        <X className="h-6 w-6" />
+                        <span className="sr-only">Close</span>
+                      </Button>
+                    </SheetClose>
                 </div>
                 <nav className="flex flex-col gap-4 mt-8">
                   {navLinks.map((link) => (
