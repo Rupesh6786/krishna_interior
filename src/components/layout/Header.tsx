@@ -68,7 +68,7 @@ export function Header() {
                 <span className="sr-only">Open menu</span>
               </Button>
             </SheetTrigger>
-            <SheetContent side="left" showCloseButton={false} className="w-[300px] sm:w-[400px] bg-background">
+            <SheetContent side="right" showCloseButton={false} className="w-[300px] sm:w-[400px] bg-background">
               <SheetHeader>
                 <SheetTitle className="sr-only">Menu</SheetTitle>
                 <SheetDescription className="sr-only">Mobile navigation menu</SheetDescription>
