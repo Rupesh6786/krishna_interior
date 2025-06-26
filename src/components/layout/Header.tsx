@@ -81,12 +81,6 @@ export function Header() {
                           Krishna Interiors
                         </span>
                     </Link>
-                    <SheetClose asChild>
-                         <Button variant="ghost" size="icon">
-                            <X className="h-6 w-6" />
-                            <span className="sr-only">Close menu</span>
-                         </Button>
-                    </SheetClose>
                 </div>
                 <nav className="flex flex-col gap-4 mt-8">
                   {navLinks.map((link) => (
