@@ -1,6 +1,6 @@
-# 🏠 Krishna Interiors – AI-Powered Interior Design Web App
+# 🏠 Krishna Interiors – Interior Design Web App
 
-**Krishna Interiors** is a modern, full-stack web application crafted for an interior design company. It serves as a digital showroom, interactive engagement hub, and a smart assistant for clients—showcasing interior design works, enabling real-time price estimation, and using AI to deliver personalized design recommendations.
+**Krishna Interiors** is a modern, full-stack web application crafted for an interior design company. It serves as a digital showroom, interactive engagement hub, and a smart assistant for clients—showcasing interior design works, enabling real-time price estimation, and offering personalized design recommendations.
 
 ---
 
@@ -16,7 +16,6 @@
 - 🔤 **Language**: TypeScript
 - 🎨 **Styling**: Tailwind CSS with a custom color palette
 - 🧩 **UI Components**: ShadCN (accessible & themeable)
-- 🧠 **AI Integration**: Genkit with Google’s Gemini model
 - 📝 **Forms**: React Hook Form + Zod (type-safe validation)
 - ☁️ **Hosting**: Netlify
 
@@ -44,14 +43,13 @@
   - Quality tier (Basic, Standard, Premium)
 - Delivers transparent pricing to build client trust
 
-### 🤖 AI-Powered Design Assistant (`/designer`)
+### 🧠 Design Assistant (`/designer`)
 - Users describe their space and design preferences
-- Data is processed by a secure **Genkit AI flow** (Gemini model)
 - Returns intelligent suggestions like:
   - Color schemes
   - Texture/material changes
   - Layout tips
-- A standout, value-added service for clients
+- A unique, value-added service for clients
 
 ### ⭐ Reviews (`/reviews`) & 📬 Contact (`/contact`)
 - Reviews page shows real client feedback to build credibility
@@ -65,16 +63,17 @@
 ## 🧩 Application Architecture
 
 - 🔀 **App Routing**: Utilizes Next.js App Router for modular structure
-- 🔐 **Secure AI Requests**:
+- 🔐 **Secure Server Actions**:
   - Client form → `/designer/client.tsx`
   - Triggers → Server Actions (`/app/actions.ts`)
-  - Executes → Secure AI flows (`/ai/flows/suggest-design-changes.ts`)
+  - Executes → Server-side logic to handle design suggestions
 - 🎨 **Custom UI/UX**:
   - Responsive layout (mobile-friendly)
   - Elegant color palette: muted gold, terracotta, soft beige
   - Slide-out menu for mobile navigation
 
 ---
+
 ## 👤 Author
 
 **Rupesh Thakur**  
