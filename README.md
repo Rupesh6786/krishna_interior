@@ -75,14 +75,6 @@
   - Slide-out menu for mobile navigation
 
 ---
-
-## 🖼️ Screenshots (Optional – Suggest Adding)
-> _You can include image previews or a short video demo here._
-
----
-
-<pre lang="md"> ## 📁 Folder Structure (Simplified) ``` krishna-interiors/ ├── app/ # Pages (App Router structure) │ ├── gallery/ # Inspiration gallery │ ├── estimator/ # Price calculator │ ├── designer/ # AI design assistant │ ├── reviews/ # Testimonials │ └── contact/ # Contact page ├── components/ # Reusable UI components (navbar, footer, etc.) ├── ai/ # Genkit AI flows ├── styles/ # Tailwind config and global styles └── README.md # Project documentation ``` </pre>
----
 ## 👤 Author
 
 **Rupesh Thakur**  
