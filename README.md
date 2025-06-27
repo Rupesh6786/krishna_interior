@@ -81,23 +81,8 @@
 
 ---
 
-## 📁 Folder Structure (Simplified)
-
-krishna-interiors/
-├── app/ # Pages (App Router structure)
-│ ├── gallery/ # Inspiration gallery
-│ ├── estimator/ # Price calculator
-│ ├── designer/ # AI design assistant
-│ ├── reviews/ # Testimonials
-│ └── contact/ # Contact page
-├── components/ # Reusable UI components (navbar, footer, etc.)
-├── ai/ # Genkit AI flows
-├── styles/ # Tailwind config and global styles
-└── README.md
-
-
+<pre lang="md"> ## 📁 Folder Structure (Simplified) ``` krishna-interiors/ ├── app/ # Pages (App Router structure) │ ├── gallery/ # Inspiration gallery │ ├── estimator/ # Price calculator │ ├── designer/ # AI design assistant │ ├── reviews/ # Testimonials │ └── contact/ # Contact page ├── components/ # Reusable UI components (navbar, footer, etc.) ├── ai/ # Genkit AI flows ├── styles/ # Tailwind config and global styles └── README.md # Project documentation ``` </pre>
 ---
-
 ## 👤 Author
 
 **Rupesh Thakur**  
